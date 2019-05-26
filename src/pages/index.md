@@ -1,21 +1,19 @@
 ---
 templateKey: index-page
-title: Some ramblings from Xoron
+title: Glitr
+subheading: Memes for everyone
 image: /img/home-jumbotron.jpg
-heading: hey im Xoron and this is my blog
-subheading: some stuff i do in my spare time
 mainpitch:
-  title: about this website
+  title: the problem with memes today
   description: >
-    hey im just some dude with some spare time to waste so i decided to create a
-    blog.
-    
-    i sometime have some wacky ideas and its sometime difficult for me to get my idea across to people so i thought maybe i could create a blog where i can better explain my ideas and create some kind of feedback mechanism where the public can well... give feedback.
+    if internet memes could be described to be a branch of linguistics, it would be by far the most univesal language in the world. internet memes are able to express ideas, concepts, meaning, emotion, ...(the list goes on). internet memes also have the ability to to address an incredibly wide demographic. due to its nature in being made of simple templates and rules, it makes internet memes easy to understand regardless of an individuals background.
+
+    it is unfortunate that there not not many tools available for creating memes for the masses. while memes are typically simple by their nature in expressing simple ideas or concepts, i still think that the ability to communicate in memes is still prohibitively difficult. people do not want to invest time into learning to to use complex image editing software to create a simple meme.
+heading: the plan
 description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+  the plan is to create some kind of easy to use meme editor, and create some king of social network around using memes to communicate.
+
+  the project will be made of up many parts and im hoping to be able to fully document them in this blog.
 intro:
   blurbs:
     - image: /img/coffee.png
