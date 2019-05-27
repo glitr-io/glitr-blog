@@ -1,62 +1,33 @@
 ---
 templateKey: index-page
-title: Glitr!!!
+title: glitr.io
 image: /img/home-jumbotron.jpg
 heading: the plan
 subheading: Memes for everyone
 mainpitch:
-  title: the problem with memes today
-  description: >
-    if internet memes could be described to be a branch of linguistics, it would
-    be by far the most univesal language in the world. internet memes are able
-    to express ideas, concepts, meaning, emotion, ...(the list goes on).
-    internet memes also have the ability to to address an incredibly wide
-    demographic. due to its nature in being made of simple templates and rules,
-    it makes internet memes easy to understand regardless of an individuals
-    background.
-
-
-    it is unfortunate that there not not many tools available for creating memes
-    for the masses. while memes are typically simple by their nature in
-    expressing simple ideas or concepts, i still think that the ability to
-    communicate in memes is still prohibitively difficult. people do not want to
-    invest time into learning to to use complex image editing software to create
-    a simple meme.
+  title: Create all the memes!
+  description: >-
+    the goal of this project is to create something that will allow everyone (as
+    many as i can) to create memes with minimum effort. internet memes (or
+    simply just "memes" as they have become known) have become part of a normal
+    experience on the internet. although i believe there is a still a lot of
+    people that are unable to create memes themselves; whether it is because of
+    a lack of technical know-how or the tools required are prohibitively
+    complicated or expensive.... lets change that!
 description: >-
-  the plan is to create some kind of easy to use meme editor, and create some
-  king of social network around using memes to communicate.
-
-  the project will be made of up many parts and im hoping to be able to fully
-  document them in this blog.
+  the plan is to create an easy-to-use meme editor mobile app that is available
+  for free on as many platforms as possible.
 intro:
   blurbs:
     - image: /img/coffee.png
-      text: >
-        We sell green and roasted coffee beans that are sourced directly from
-        independent farmers and farm cooperatives. We’re proud to offer a
-        variety of coffee beans grown with great care for the environment and
-        local communities. Check our post or contact us directly for current
-        availability.
+      text: wide demographic
     - image: /img/coffee-gear.png
-      text: >
-        We offer a small, but carefully curated selection of brewing gear and
-        tools for every taste and experience level. No matter if you roast your
-        own beans or just bought your first french press, you’ll find a gadget
-        to fall in love with in our shop.
+      text: easy to ingest information
     - image: /img/tutorials.png
-      text: >
-        Love a great cup of coffee, but never knew how to make one? Bought a
-        fancy new Chemex but have no clue how to use it? Don't worry, we’re here
-        to help. You can schedule a custom 1-on-1 consultation with our baristas
-        to learn anything you want to know about coffee roasting and brewing.
-        Email us or call the store for details.
+      text: communicate ideas independent of native speaking/reading language
     - image: /img/meeting-space.png
-      text: >
-        We believe that good coffee has the power to bring people together.
-        That’s why we decided to turn a corner of our shop into a cozy meeting
-        space where you can hang out with fellow coffee lovers and learn about
-        coffee making techniques. All of the artwork on display there is for
-        sale. The full price you pay goes to the artist.
+      text: |
+        creative but structured
   heading: What we offer
   description: >
     Kaldi is the ultimate spot for coffee lovers who want to learn about their
