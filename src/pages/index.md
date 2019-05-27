@@ -1,19 +1,33 @@
 ---
 templateKey: index-page
 title: Glitr123
-subheading: Memes for everyone
 image: /img/home-jumbotron.jpg
+heading: the plan
+subheading: Memes for everyone
 mainpitch:
   title: the problem with memes today
   description: >
-    if internet memes could be described to be a branch of linguistics, it would be by far the most univesal language in the world. internet memes are able to express ideas, concepts, meaning, emotion, ...(the list goes on). internet memes also have the ability to to address an incredibly wide demographic. due to its nature in being made of simple templates and rules, it makes internet memes easy to understand regardless of an individuals background.
+    if internet memes could be described to be a branch of linguistics, it would
+    be by far the most univesal language in the world. internet memes are able
+    to express ideas, concepts, meaning, emotion, ...(the list goes on).
+    internet memes also have the ability to to address an incredibly wide
+    demographic. due to its nature in being made of simple templates and rules,
+    it makes internet memes easy to understand regardless of an individuals
+    background.
 
-    it is unfortunate that there not not many tools available for creating memes for the masses. while memes are typically simple by their nature in expressing simple ideas or concepts, i still think that the ability to communicate in memes is still prohibitively difficult. people do not want to invest time into learning to to use complex image editing software to create a simple meme.
-heading: the plan
+
+    it is unfortunate that there not not many tools available for creating memes
+    for the masses. while memes are typically simple by their nature in
+    expressing simple ideas or concepts, i still think that the ability to
+    communicate in memes is still prohibitively difficult. people do not want to
+    invest time into learning to to use complex image editing software to create
+    a simple meme.
 description: >-
-  the plan is to create some kind of easy to use meme editor, and create some king of social network around using memes to communicate.
+  the plan is to create some kind of easy to use meme editor, and create some
+  king of social network around using memes to communicate.
 
-  the project will be made of up many parts and im hoping to be able to fully document them in this blog.
+  the project will be made of up many parts and im hoping to be able to fully
+  document them in this blog.
 intro:
   blurbs:
     - image: /img/coffee.png
@@ -66,3 +80,4 @@ main:
     alt: Coffee beans
     image: /img/products-grid1.jpg
 ---
+
