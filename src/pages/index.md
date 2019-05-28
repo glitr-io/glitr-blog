@@ -1,6 +1,6 @@
 ---
 templateKey: index-page
-title: glitr.io
+title: glitr.io!!
 image: /img/home-jumbotron.jpg
 heading: the plan
 subheading: Memes for everyone
