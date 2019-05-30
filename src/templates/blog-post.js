@@ -73,8 +73,8 @@ class BlogPost extends React.Component {
 
     script.innerHTML = `
       var disqus_config = function () {
-        this.page.url = window.location.href;
-        this.page.identifier = window.location.pathname;
+        this.page.url = "${window.location.origin}${window.location.pathname}";
+        this.page.identifier = "${window.location.origin}${window.location.pathname}";
       };
       (function() { // DON'T EDIT BELOW THIS LINE
         var d = document, s = d.createElement('script');
