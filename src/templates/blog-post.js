@@ -5,6 +5,7 @@ import Helmet from 'react-helmet'
 import { graphql, Link } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
+const HREF = window.location.href;
 
 export const BlogPostTemplate = ({
   content,
@@ -26,7 +27,7 @@ export const BlogPostTemplate = ({
               {title}
             </h1>
             <p>{description}</p>
-            <a href={window.location.href}>Link</a>
+            <a href={`${HREF}#disqus_thread`}>Link</a>
             <PostContent content={content} />
             {tags && tags.length ? (
               <div style={{ marginTop: `4rem` }}>
