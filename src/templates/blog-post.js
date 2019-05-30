@@ -1,11 +1,10 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import PropTypes from 'prop-types'
 import { kebabCase } from 'lodash'
 import Helmet from 'react-helmet'
 import { graphql, Link } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
-const HREF = window.location.href;
 
 export const BlogPostTemplate = ({
   content,
@@ -15,7 +14,13 @@ export const BlogPostTemplate = ({
   title,
   helmet,
 }) => {
+  const [href, setHref] = useState('test.com');
   const PostContent = contentComponent || Content
+
+  useEffect(() => {
+    const HREF = window.location.href;
+    setHref(HREF);
+  });
 
   return (
     <section className="section">
@@ -27,7 +32,7 @@ export const BlogPostTemplate = ({
               {title}
             </h1>
             <p>{description}</p>
-            <a href={`${HREF}#disqus_thread`}>Link</a>
+            <a href={`${href}#disqus_thread`}>Link</a>
             <PostContent content={content} />
             {tags && tags.length ? (
               <div style={{ marginTop: `4rem` }}>
