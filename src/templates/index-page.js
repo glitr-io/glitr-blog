@@ -21,7 +21,7 @@ export const IndexPageTemplate = ({
       style={{
         backgroundImage: `url(${
           // !!image.childImageSharp ? image.childImageSharp.fluid.src : image
-          'https://picsum.photos/2000'
+          'https://picsum.photos/700'
         })`,
         backgroundPosition: `top left`,
         backgroundAttachment: `fixed`,
