@@ -18,7 +18,7 @@ export const BlogPostTemplate = ({
   const PostContent = contentComponent || Content
 
   useEffect(() => {
-    const HREF = window.location.href;
+    const HREF = `${window.location.origin}${window.location.pathname}`;
     setHref(HREF);
   });
 
