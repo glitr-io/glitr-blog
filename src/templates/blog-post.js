@@ -32,7 +32,7 @@ export const BlogPostTemplate = ({
               {title}
             </h1>
             <p>{description}</p>
-            <a href={`${href}#disqus_thread`}>Link</a>
+            {/* <a href={`${href}#disqus_thread`}>Link</a> */}
             <PostContent content={content} />
             {tags && tags.length ? (
               <div style={{ marginTop: `4rem` }}>
