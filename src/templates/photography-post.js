@@ -135,7 +135,7 @@ class PhotographyPost extends React.Component {
 export default PhotographyPost
 
 export const pageQuery = graphql`
-  query BlogPostByID($id: String!) {
+  query PhotographyPostByID($id: String!) {
     markdownRemark(id: { eq: $id }) {
       id
       html
