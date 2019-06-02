@@ -67,6 +67,10 @@ PhotographyPostTemplate.propTypes = {
   helmet: PropTypes.object,
 }
 
+PhotographyPostTemplate.defaultProps = {
+  images: [],
+}
+
 class PhotographyPost extends React.Component {
   static propTypes = {
     data: PropTypes.shape({
