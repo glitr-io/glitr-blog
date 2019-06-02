@@ -13,6 +13,7 @@ export const PhotographyPostTemplate = ({
   tags,
   title,
   helmet,
+  images,
 }) => {
   const [href, setHref] = useState('test.com');
   const PostContent = contentComponent || Content
@@ -41,6 +42,11 @@ export const PhotographyPostTemplate = ({
                   {tags.map(tag => (
                     <li key={tag + `tag`}>
                       <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
+                    </li>
+                  ))}
+                  {images.map(image => (
+                    <li>
+                      {image}
                     </li>
                   ))}
                 </ul>
@@ -144,6 +150,7 @@ export const pageQuery = graphql`
         title
         description
         tags
+        images
       }
     }
   }

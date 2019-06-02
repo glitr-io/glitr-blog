@@ -8,6 +8,11 @@ description: The Coffee Taster’s Flavor Wheel, the official resource used by c
 tags:
   - flavor
   - tasting
+images:
+  - image1
+  - image 2
+  - image 3
+  - image four
 ---
 
 ![flavor wheel](/img/flavor_wheel.jpg)
