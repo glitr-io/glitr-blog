@@ -1,5 +1,5 @@
 ---
-templateKey: blog-post
+templateKey: projects-post
 title: test title
 date: 2019-05-27T22:46:16.224Z
 description: >-

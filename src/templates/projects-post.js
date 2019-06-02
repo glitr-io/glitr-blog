@@ -6,7 +6,7 @@ import { graphql, Link } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
 
-export const BlogPostTemplate = ({
+export const ProjectsPostTemplate = ({
   content,
   contentComponent,
   description,
@@ -14,13 +14,13 @@ export const BlogPostTemplate = ({
   title,
   helmet,
 }) => {
+  const [href, setHref] = useState('test.com');
   const PostContent = contentComponent || Content
 
-  // const [href, setHref] = useState('test.com');
-  // useEffect(() => {
-  //   const HREF = `${window.location.origin}${window.location.pathname}`;
-  //   setHref(HREF);
-  // });
+  useEffect(() => {
+    const HREF = `${window.location.origin}${window.location.pathname}`;
+    setHref(HREF);
+  });
 
   return (
     <section className="section">
@@ -53,7 +53,7 @@ export const BlogPostTemplate = ({
   )
 }
 
-BlogPostTemplate.propTypes = {
+ProjectsPostTemplate.propTypes = {
   content: PropTypes.node.isRequired,
   contentComponent: PropTypes.func,
   description: PropTypes.string,
@@ -61,7 +61,7 @@ BlogPostTemplate.propTypes = {
   helmet: PropTypes.object,
 }
 
-class BlogPost extends React.Component {
+class ProjectsPost extends React.Component {
   static propTypes = {
     data: PropTypes.shape({
       markdownRemark: PropTypes.object,
@@ -97,7 +97,7 @@ class BlogPost extends React.Component {
 
     return (
       <Layout>
-        <BlogPostTemplate
+        <ProjectsPostTemplate
           content={post.html}
           contentComponent={HTMLContent}
           description={post.frontmatter.description}
@@ -132,10 +132,10 @@ class BlogPost extends React.Component {
   }
 }
 
-export default BlogPost
+export default ProjectsPost
 
 export const pageQuery = graphql`
-  query BlogPostByID($id: String!) {
+  query ProjectsPostByID($id: String!) {
     markdownRemark(id: { eq: $id }) {
       id
       html
