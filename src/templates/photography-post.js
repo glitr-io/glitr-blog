@@ -67,10 +67,6 @@ PhotographyPostTemplate.propTypes = {
   helmet: PropTypes.object,
 }
 
-PhotographyPostTemplate.defaultProps = {
-  images: [],
-}
-
 class PhotographyPost extends React.Component {
   static propTypes = {
     data: PropTypes.shape({
@@ -121,7 +117,7 @@ class PhotographyPost extends React.Component {
             </Helmet>
           }
           tags={post.frontmatter.tags}
-          images={post.frontmatter.images}
+          images={post.frontmatter.images || []}
           title={post.frontmatter.title}
         />
 
