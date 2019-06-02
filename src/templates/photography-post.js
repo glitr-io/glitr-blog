@@ -121,6 +121,7 @@ class PhotographyPost extends React.Component {
             </Helmet>
           }
           tags={post.frontmatter.tags}
+          images={post.frontmatter.images}
           title={post.frontmatter.title}
         />
 
