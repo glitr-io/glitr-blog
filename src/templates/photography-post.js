@@ -14,10 +14,10 @@ export const PhotographyPostTemplate = ({
   tags,
   title,
   helmet,
-  // images,
+  images,
 }) => {
   const PostContent = contentComponent || Content
-  const images = [
+  const images2 = [
     {
       original: 'http://lorempixel.com/1000/600/nature/1/',
       thumbnail: 'http://lorempixel.com/250/150/nature/1/',
@@ -50,7 +50,7 @@ export const PhotographyPostTemplate = ({
             <p>{description}</p>
             {/* <a href={`${href}#disqus_thread`}>Link</a> */}
             <PostContent content={content} />
-            <ImageGallery items={images} />
+            <ImageGallery items={images2} />
             {tags && tags.length ? (
               <div style={{ marginTop: `4rem` }}>
                 <h4>Tags</h4>
