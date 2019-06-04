@@ -4,7 +4,7 @@ title: about this site
 ---
 so you want to know a little about me? im a software developer and id like to push my skills. my method for this is mostly just throwing myself in to the deep-end when it comes to development projects (learning by doing).
 
-i think like many other developers, i have aside-project that i thought i could do this by myself, but i found that my side project has many branches of work so it is becoming increasingly difficult to keep this side-project organised... so i thought to myself:
+i think like many other developers, i have a side-project that i thought i could do by myself, but i found that my side-project has many branches of work so it is becoming increasingly difficult to keep this side-project organised... so i thought to myself:
 
 > i think i need to place to organize my work.
 
