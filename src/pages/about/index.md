@@ -17,4 +17,8 @@ and then i thought:
 
 so here is the idea:
 
-an instant messaging platform, where you communicate with memes.
+> an instant messaging platform, where you communicate with memes.
+
+i don't expect this side-project to be competitive in the industry, (... after all it is only "instant messaging" and "memes"... something the internet has an abundant supply), but my hope is that this project will at least be able to pay for its own development and maintenance.
+
+the main goal of this project is personal education. i am learning about development and improving my skills. not because i need to... just because i want to.
