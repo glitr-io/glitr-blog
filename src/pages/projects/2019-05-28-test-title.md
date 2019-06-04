@@ -5,7 +5,7 @@ date: 2019-05-27T22:46:16.224Z
 description: >-
   this is some description over here. this is the part to talk about blah blah
   blah!!
-featuredpost: true
+featuredpost: false
 featuredimage: /img/blog-index.jpg
 ---
 hey this is the body
