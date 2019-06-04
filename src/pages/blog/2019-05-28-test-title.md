@@ -6,7 +6,7 @@ description: >-
   this is some description over here. this is the part to talk about blah blah
   blah!!
 featuredpost: true
-featuredimage: /img/blog-index.jpg
+featuredimage: /img/ep5-be-like.jpg
 ---
 hey this is the body
 
