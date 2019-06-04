@@ -6,6 +6,7 @@ import { graphql, Link } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
 import ImageGallery from 'react-image-gallery'
+import "react-image-gallery/styles/css/image-gallery.css";
 
 export const PhotographyPostTemplate = ({
   content,
