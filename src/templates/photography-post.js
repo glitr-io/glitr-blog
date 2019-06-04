@@ -5,8 +5,7 @@ import Helmet from 'react-helmet'
 import { graphql, Link } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
-import ImageGallery from 'react-image-gallery';
-import "react-image-gallery/styles/css/image-gallery.css";
+import ImageGallery from 'react-image-gallery'
 
 export const PhotographyPostTemplate = ({
   content,
@@ -33,11 +32,11 @@ export const PhotographyPostTemplate = ({
     }
   ]
 
-  const [href, setHref] = useState('test.com');
-  useEffect(() => {
-    const HREF = `${window.location.origin}${window.location.pathname}`;
-    setHref(HREF);
-  });
+  // const [href, setHref] = useState('test.com');
+  // useEffect(() => {
+  //   const HREF = `${window.location.origin}${window.location.pathname}`;
+  //   setHref(HREF);
+  // });
 
   return (
     <section className="section">
