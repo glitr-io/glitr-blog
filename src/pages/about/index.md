@@ -1,19 +1,20 @@
 ---
-templateKey: 'about-page'
-path: /about
-title: About our values
+templateKey: about-page
+title: about this site
 ---
-### Shade-grown coffee
-Coffee is a small tree or shrub that grows in the forest understory in its wild form, and traditionally was grown commercially under other trees that provided shade. The forest-like structure of shade coffee farms provides habitat for a great number of migratory and resident species.
+so you want to know a little about me? im a software developer and id like to push my skills. my method for this is mostly just throwing myself in to the deep-end when it comes to development projects (learning by doing).
 
-### Single origin
-Single-origin coffee is coffee grown within a single known geographic origin. Sometimes, this is a single farm or a specific collection of beans from a single country. The name of the coffee is then usually the place it was grown to whatever degree available.
+i think like many other developers, i have aside-project that i thought i could do this by myself, but i found that my side project has many branches of work so it is becoming increasingly difficult to keep this side-project organised... so i thought to myself:
 
-### Sustainable farming
-Sustainable agriculture is farming in sustainable ways based on an understanding of ecosystem services, the study of relationships between organisms and their environment. What grows where and how it is grown are a matter of choice and careful consideration for nature and communities.
+> i think i need to place to organize my work.
 
-### Direct sourcing
-Direct trade is a form of sourcing practiced by some coffee roasters. Advocates of direct trade practices promote direct communication and price negotiation between buyer and farmer, along with systems that encourage and incentivize quality.
+and then i thought:
 
-### Reinvest profits
-We want to truly empower the communities that bring amazing coffee to you. That’s why we reinvest 20% of our profits into farms, local businesses and schools everywhere our coffee is grown. You can see the communities grow and learn more about coffee farming on our blog.
+> a blog could be useful in many ways.
+>
+> 1. i could learn how to create a GatsbyJS blog.
+> 2. its an excuse to this domain name thats been going to waste for the past few years.
+
+so here is the idea:
+
+an instant messaging platform, where you communicate with memes.
