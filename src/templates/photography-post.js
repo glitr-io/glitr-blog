@@ -5,6 +5,8 @@ import Helmet from 'react-helmet'
 import { graphql, Link } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
+import ImageGallery from 'react-image-gallery';
+import "react-image-gallery/styles/css/image-gallery.css";
 
 export const PhotographyPostTemplate = ({
   content,
@@ -13,11 +15,25 @@ export const PhotographyPostTemplate = ({
   tags,
   title,
   helmet,
-  images,
+  // images,
 }) => {
-  const [href, setHref] = useState('test.com');
   const PostContent = contentComponent || Content
+  const images = [
+    {
+      original: 'http://lorempixel.com/1000/600/nature/1/',
+      thumbnail: 'http://lorempixel.com/250/150/nature/1/',
+    },
+    {
+      original: 'http://lorempixel.com/1000/600/nature/2/',
+      thumbnail: 'http://lorempixel.com/250/150/nature/2/'
+    },
+    {
+      original: 'http://lorempixel.com/1000/600/nature/3/',
+      thumbnail: 'http://lorempixel.com/250/150/nature/3/'
+    }
+  ]
 
+  const [href, setHref] = useState('test.com');
   useEffect(() => {
     const HREF = `${window.location.origin}${window.location.pathname}`;
     setHref(HREF);
@@ -35,6 +51,7 @@ export const PhotographyPostTemplate = ({
             <p>{description}</p>
             {/* <a href={`${href}#disqus_thread`}>Link</a> */}
             <PostContent content={content} />
+            <ImageGallery items={images} />
             {tags && tags.length ? (
               <div style={{ marginTop: `4rem` }}>
                 <h4>Tags</h4>
