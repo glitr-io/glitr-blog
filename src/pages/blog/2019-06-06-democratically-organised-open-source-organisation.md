@@ -14,7 +14,7 @@ i want to create a democratically organised organisation... those are a lot of b
 
 i am a software developer and i do not understand much about businesses and organisations. this seems to make it very difficult for me to find out more information about what i am trying to achieve. i have tried searching "open source business model", but all i could find out was things about was advice on running companies from the perspective of some kind of CEO-type figure. 
 
-i was optimistic enough to think i could finish it by myself, but it seems that to create the project that i am trying to is too much for one person... or at least too much for me to do by myself. 
+i was optimistic enough to think i could finish it by myself, but it seems that to create the project that i am trying to, is too much for one person... or at least too much for me to do by myself. 
 
 as a result of personal effort, i have made several functioning prototypes i am considering to make open source... i remain passionate about my side project and am wondering what my options would be to be able to continue my project as open source.
 
