@@ -20,8 +20,8 @@ as a result of personal effort, i have made several functioning components for t
 
 while open source will allow for other developer to be able to work on the project with me, i am not interested in any particular help from the software development perspective (the main purpose of the project was to challenge me as a developer)... my main difficulty with this project is the organisational aspect. i have no idea what i am doing when it comes to business, legal etc (basically "things-that-aren't-software-development").
 
-i thought maybe i can create some kind of blog that i keep updating as the project progresses. i can add some commenting feature so i can get public feedback on the direction that i am working towards.
+i thought maybe i can create some kind of blog that i kept up-to-date as the project progresses. i can add some commenting feature so i can get public feedback on the direction that i am working towards.
 
-this is a new method of working for me and i do not know anything about working this way.
+i have made a start at: [glitr.io](https://glitr.io) ... but this is a new method of working for me and i do not know anything about working this way.
 
 i could use any advice/ideas anyone is able to give. thanks.
