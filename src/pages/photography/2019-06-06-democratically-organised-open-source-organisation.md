@@ -7,6 +7,11 @@ featuredpost: true
 featuredimage: /img/ep5-be-like.jpg
 tags:
   - ''
+images:
+  - image1
+  - image2
+  - image3
+  - image4
 ---
 hello to anyone reading this.
 
