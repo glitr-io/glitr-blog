@@ -8,7 +8,7 @@ featuredimage: /img/ep5-be-like.jpg
 tags:
   - ''
 ---
-hello to anyone reading this.
+hello to anyone reading this..
 
 i want to create a democratically organised organisation... those are a lot of buzzwords and even i do not know what they mean. i am hoping someone can give me any advice on what i'm trying to achieve... are there any examples out there i am able to study? i would like advice on the direction i can take my side-project to align my projects goals to what potential end-users want?
 
