@@ -1,5 +1,5 @@
 ---
-templateKey: projects-post
+templateKey: blog-post
 title: message engine
 date: 2019-06-13T20:29:44.188Z
 description: details about the instant message functionality of the project
