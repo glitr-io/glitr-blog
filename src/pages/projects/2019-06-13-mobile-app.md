@@ -8,8 +8,6 @@ featuredimage: /img/flavor_wheel.jpg
 ---
 ![]()
 
-![](/img/glitr-app-thread.jpeg)
-
 the project will need a mobile app so that users on mobile phones will be able to use the meme instant messaging service.
 
 the mobile app will be used to allows users to create memes on the device as well as send memes to other people
