@@ -85,5 +85,5 @@ possibly over webrtc?
 * ![meme-editor screen](/img/glitr-app-meme-editor.jpeg "meme-editor screen")
 * thread page
 * ![thread screen](/img/glitr-app-thread.jpeg "thread screen")
-* conversations list page
-* chat page
+* image search page
+* ![image-search screen](/img/glitr-app-image-search.jpeg "image-search screen")
