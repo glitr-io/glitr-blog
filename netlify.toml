@@ -15,7 +15,7 @@
   signed = "API_SIGNATURE_TOKEN"
 
 [[redirects]]
-  from = "pets.glitr.io"
+  from = "https://pets.glitr.io"
   to = "https://www.petsofnetlify.com"
   status = 200
   force = true # COMMENT: ensure that we always redirect
