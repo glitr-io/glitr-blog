@@ -39,7 +39,7 @@
   "license": "MIT",
   "main": "n/a",
   "scripts": {
-    "clean": "rimraf .cache public",
+    "clean": "rimraf .cache public && gatsby clean",
     "start:app": "npm run develop",
     "start:lambda": "netlify-lambda serve src/lambda",
     "start": "run-p start:**",
@@ -49,7 +49,9 @@
     "develop": "npm run clean && gatsby develop",
     "serve": "gatsby serve",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"{gatsby-*.js,src/**/*.js}\"",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docker:build": "sudo docker build -t blog . && sudo docker run -v=$PWD:/app -it blog npm install && npm run build",
+    "docker:start": "sudo docker run -p 8000:8000 -p 9000:9000 -v=$PWD:/app -it blog sh"
   },
   "devDependencies": {
     "http-proxy-middleware": "^0.19.1",
