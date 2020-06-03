@@ -10,7 +10,7 @@
   from = "/pets"
   to = "https://www.petsofnetlify.com"
   status = 200
-  force = true # COMMENT: ensure that we always redirect
+  # force = true # COMMENT: ensure that we always redirect
   headers = {X-From = "Netlify"}
   signed = "API_SIGNATURE_TOKEN"
 
@@ -18,6 +18,6 @@
   from = "https://pets.glitr.io"
   to = "https://www.petsofnetlify.com"
   status = 200
-  force = true # COMMENT: ensure that we always redirect
+  # force = true # COMMENT: ensure that we always redirect
   headers = {X-From = "Netlify"}
   signed = "API_SIGNATURE_TOKEN"
