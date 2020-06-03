@@ -16,7 +16,7 @@
 
 [[redirects]]
   from = "https://pets.glitr.io/*"
-  to = "https://develop-app.factris.com/:splat"
+  to = "https://www.bbc.com/:splat"
   status = 200
   force = true # COMMENT: ensure that we always redirect
   headers = {X-From = "Netlify"}
