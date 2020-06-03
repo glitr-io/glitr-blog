@@ -16,7 +16,7 @@
 
 [[redirects]]
   from = "https://pets.glitr.io"
-  to = "https://www.petsofnetlify.com"
+  to = "https://www.bbc.com/news"
   status = 200
   force = true # COMMENT: ensure that we always redirect
   headers = {X-From = "Netlify"}
