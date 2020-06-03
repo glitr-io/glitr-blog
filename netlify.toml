@@ -15,8 +15,8 @@
   signed = "API_SIGNATURE_TOKEN"
 
 [[redirects]]
-  from = "https://pets.glitr.io"
-  to = "https://www.bbc.com/news"
+  from = "https://pets.glitr.io/*"
+  to = "https://www.bbc.com/news/:splat"
   status = 200
   force = true # COMMENT: ensure that we always redirect
   headers = {X-From = "Netlify"}
