@@ -12,6 +12,7 @@ const TemplateWrapper = ({ children }) => {
       <Helmet>
         <html lang="en" />
         <title>{title}</title>
+        <link rel="manifest" href="js13kpwa.webmanifest" />
         <meta name="description" content={description} />
 
         <link
@@ -53,6 +54,15 @@ const TemplateWrapper = ({ children }) => {
 
             gtag('config', 'UA-71764908-1');
           `}
+        </script>
+
+        <script src="/commons.js"></script>
+        <script>
+          if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+              navigator.serviceWorker.register('/service-worker.js');
+            })
+          }
         </script>
 
       </Helmet>
