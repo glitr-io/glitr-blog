@@ -16,7 +16,7 @@
 
 [[redirects]]
   from = "https://pets.glitr.io/*"
-  to = "http://192.168.1.116:1234/:splat"
+  to = "http://s3-website-bucket-a2ce2f0.s3-website-eu-west-1.amazonaws.com/:splat"
   status = 200
   force = true # COMMENT: ensure that we always redirect
   headers = {X-From = "Netlify"}
